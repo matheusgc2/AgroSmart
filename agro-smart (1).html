@@ -227,10 +227,244 @@
           <div><div class="kicker">Oportunidades selecionadas</div><h2>Produtos em destaque</h2><p class="section-sub">Confira alguns anúncios disponíveis no Agro Smart.</p></div>
           <div class="searchbar"><input id="searchInput" type="search" placeholder="Buscar produto..." oninput="searchProducts()"><button class="btn btn-primary" onclick="searchProducts()">Buscar</button></div>
         </div>
-        <div class="product-grid" id="productGrid">
+       <div class="product-grid" id="productGrid">
+          <!-- GRÃOS -->
           <article class="product-card" data-category="Grãos" data-name="Soja em grãos">
-            <div class="product-image"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Soja.jpg" alt="Vagens de soja com grãos amarelos" loading="eager" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=700&q=80';"><span class="product-label">DESTAQUE</span></div>
-            <div class="product-info"><div class="product-category">Grãos</div><h3>Soja em grãos</h3><div class="location">📍 Cascavel, PR</div><div class="product-bottom"><div class="price">R$ 132,00 <small>/ saca</small></div><a href="#" class="details" onclick="contactSeller(event,'Soja em grãos')">Tenho interesse →</a></div></div>
+            <div class="product-image">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Soja.jpg" alt="Vagens de soja com grãos amarelos" loading="eager">
+              <span class="product-label">DESTAQUE</span>
+            </div>
+            <div class="product-info">
+              <div class="product-category">Grãos</div>
+              <h3>Soja em grãos</h3>
+              <div class="location">📍 Cascavel, PR</div>
+              <div class="product-bottom">
+                <div class="price">R$ 132,00 <small>/ saca</small></div>
+                <a href="#" class="details">Tenho interesse →</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="Grãos" data-name="Feijão carioca tipo 1">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1551462147-ff29053bfc14?auto=format&fit=crop&w=700&q=80" alt="Grãos de feijão selecionados">
+            </div>
+            <div class="product-info">
+              <div class="product-category">Grãos</div>
+              <h3>Feijão carioca tipo 1</h3>
+              <div class="location">📍 Ponta Grossa, PR</div>
+              <div class="product-bottom">
+                <div class="price">R$ 245,00 <small>/ saca</small></div>
+                <a href="#" class="details">Tenho interesse →</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="Grãos" data-name="Feijão preto safra nova">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1508747703725-719777637510?auto=format&fit=crop&w=700&q=80" alt="Grãos escuros selecionados">
+            </div>
+            <div class="product-info">
+              <div class="product-category">Grãos</div>
+              <h3>Feijão preto safra nova</h3>
+              <div class="location">📍 Irati, PR</div>
+              <div class="product-bottom">
+                <div class="price">R$ 230,00 <small>/ saca</small></div>
+                <a href="#" class="details">Tenho interesse →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- CEREAIS -->
+          <article class="product-card" data-category="Cereais" data-name="Milho amarelo">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&w=700&q=80" alt="Espigas de milho">
+            </div>
+            <div class="product-info">
+              <div class="product-category">Cereais</div>
+              <h3>Milho amarelo</h3>
+              <div class="location">📍 Toledo, PR</div>
+              <div class="product-bottom">
+                <div class="price">R$ 68,00 <small>/ saca</small></div>
+                <a href="#" class="details">Tenho interesse →</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="Cereais" data-name="Trigo pão PH 78">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=700&q=80" alt="Plantação de trigo maduro">
+              <span class="product-label">SAFRA 2026</span>
+            </div>
+            <div class="product-info">
+              <div class="product-category">Cereais</div>
+              <h3>Trigo pão PH 78</h3>
+              <div class="location">📍 Campo Mourão, PR</div>
+              <div class="product-bottom">
+                <div class="price">R$ 84,50 <small>/ saca</small></div>
+                <a href="#" class="details">Tenho interesse →</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="Cereais" data-name="Aveia branca em grãos">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=700&q=80" alt="Grãos de aveia">
+            </div>
+            <div class="product-info">
+              <div class="product-category">Cereais</div>
+              <h3>Aveia branca em grãos</h3>
+              <div class="location">📍 Guarapuava, PR</div>
+              <div class="product-bottom">
+                <div class="price">R$ 62,00 <small>/ saca</small></div>
+                <a href="#" class="details">Tenho interesse →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- CAFÉ -->
+          <article class="product-card" data-category="Café" data-name="Café arábica">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=700&q=80" alt="Grãos de café">
+            </div>
+            <div class="product-info">
+              <div class="product-category">Café</div>
+              <h3>Café arábica</h3>
+              <div class="location">📍 Londrina, PR</div>
+              <div class="product-bottom">
+                <div class="price">R$ 980,00 <small>/ saca</small></div>
+                <a href="#" class="details">Tenho interesse →</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="Café" data-name="Café especial peneira 17/18">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=700&q=80" alt="Grãos de café selecionados">
+              <span class="product-label">EXPORTAÇÃO</span>
+            </div>
+            <div class="product-info">
+              <div class="product-category">Café</div>
+              <h3>Café especial peneira 17/18</h3>
+              <div class="location">📍 Patrocínio, MG</div>
+              <div class="product-bottom">
+                <div class="price">R$ 1.290,00 <small>/ saca</small></div>
+                <a href="#" class="details">Tenho interesse →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- MÁQUINAS -->
+          <article class="product-card" data-category="Máquinas" data-name="Trator agrícola 4x4 110cv">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=700&q=80" alt="Campo agrícola">
+            </div>
+            <div class="product-info">
+              <div class="product-category">Máquinas</div>
+              <h3>Trator agrícola 4x4 110cv</h3>
+              <div class="location">📍 Maringá, PR</div>
+              <div class="product-bottom">
+                <div class="price">Sob consulta</div>
+                <a href="#" class="details">Tenho interesse →</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="Máquinas" data-name="Colheitadeira axial de grãos">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1592982537447-7440770cbfc9?auto=format&fit=crop&w=700&q=80" alt="Colheitadeira trabalhando na lavoura">
+              <span class="product-label">SEMINOVA</span>
+            </div>
+            <div class="product-info">
+              <div class="product-category">Máquinas</div>
+              <h3>Colheitadeira axial de grãos</h3>
+              <div class="location">📍 Sorriso, MT</div>
+              <div class="product-bottom">
+                <div class="price">R$ 890.000,00</div>
+                <a href="#" class="details">Tenho interesse →</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="Máquinas" data-name="Pulverizador autopropelido 3000L">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=700&q=80" alt="Maquinário agrícola em operação no campo">
+            </div>
+            <div class="product-info">
+              <div class="product-category">Máquinas</div>
+              <h3>Pulverizador autopropelido 3000L</h3>
+              <div class="location">📍 Rio Verde, GO</div>
+              <div class="product-bottom">
+                <div class="price">R$ 540.000,00</div>
+                <a href="#" class="details">Tenho interesse →</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="Máquinas" data-name="Plantadeira articulada 15 linhas">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1530267981375-f0de937f5f13?auto=format&fit=crop&w=700&q=80" alt="Equipamento de plantio no campo">
+            </div>
+            <div class="product-info">
+              <div class="product-category">Máquinas</div>
+              <h3>Plantadeira articulada 15 linhas</h3>
+              <div class="location">📍 Passo Fundo, RS</div>
+              <div class="product-bottom">
+                <div class="price">Sob consulta</div>
+                <a href="#" class="details">Tenho interesse →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- INSUMOS -->
+          <article class="product-card" data-category="Insumos" data-name="Fertilizante mineral NPK 04-14-08">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=700&q=80" alt="Mãos segurando solo fértil e muda">
+              <span class="product-label">PRONTA ENTREGA</span>
+            </div>
+            <div class="product-info">
+              <div class="product-category">Insumos</div>
+              <h3>Fertilizante mineral NPK 04-14-08</h3>
+              <div class="location">📍 Paranaguá, PR</div>
+              <div class="product-bottom">
+                <div class="price">R$ 2.850,00 <small>/ ton</small></div>
+                <a href="#" class="details">Tenho interesse →</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="Insumos" data-name="Sementes de soja certificadas IPRO">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?auto=format&fit=crop&w=700&q=80" alt="Mudas brotando no solo">
+            </div>
+            <div class="product-info">
+              <div class="product-category">Insumos</div>
+              <h3>Sementes de soja certificadas IPRO</h3>
+              <div class="location">📍 Palotina, PR</div>
+              <div class="product-bottom">
+                <div class="price">R$ 410,00 <small>/ bag</small></div>
+                <a href="#" class="details">Tenho interesse →</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="Insumos" data-name="Calcário dolomítico a granel">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=700&q=80" alt="Preparo de solo agrícola">
+            </div>
+            <div class="product-info">
+              <div class="product-category">Insumos</div>
+              <h3>Calcário dolomítico a granel</h3>
+              <div class="location">📍 Castro, PR</div>
+              <div class="product-bottom">
+                <div class="price">R$ 165,00 <small>/ ton</small></div>
+                <a href="#" class="details">Tenho interesse →</a>
+              </div>
+            </div>
+          </article>
+
+          <div class="empty" id="emptyState" style="display: none;">Nenhum produto encontrado. Tente outra busca.</div>
+        </div>
           </article>
           <article class="product-card" data-category="Cereais" data-name="Milho amarelo">
             <div class="product-image"><img src="https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&w=700&q=80" alt="Espigas de milho"></div>
